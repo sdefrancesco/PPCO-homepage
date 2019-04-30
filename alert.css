@@ -1,0 +1,35 @@
+.alert {
+    background-color: rgba(42, 52, 66, 0.9);
+    position: fixed;
+    width: 500px;
+    bottom: 100px;
+    height: auto;
+    border-left: 10px solid #2194fa;
+    border-radius: 3px;
+    right: 20px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-flow: row;
+    -webkit-font-smoothing: antialiased;
+    box-shadow: 0px 2px 10px rgba(23, 24, 27, 0.34901960784313724);
+}
+
+
+.alert .content {
+    font-weight: bold;
+    padding: 1rem;
+
+}
+
+.alert .close {
+    height: 100%;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.19);
+    cursor: pointer;
+}
